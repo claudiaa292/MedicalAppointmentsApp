@@ -19,6 +19,8 @@ For the add and edit patient form the following validations have been added for 
 the numbers already in the list
 
 The implementation was made with Angular Reactive forms.
+
+
 # Project was based on the following technologies and tooling:
 - Angular with Typescript
 
