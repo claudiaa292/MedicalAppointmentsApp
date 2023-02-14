@@ -20,6 +20,7 @@ the numbers already in the list
 
 The implementation was made with Angular Reactive forms.
 
+<img src="medical-appointment.jpg">
 
 # Project was based on the following technologies and tooling:
 - Angular with Typescript
