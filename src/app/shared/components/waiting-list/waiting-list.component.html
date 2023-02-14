@@ -1,0 +1,54 @@
+<div class="card h-100 layout-card">
+    <div class="card-header text-align-center">
+        <div class="header-container">
+            <h2 class="header">Waiting list</h2>
+        </div>
+    </div>
+
+    <div class="card-body flex-column m-4 p-2">
+        <div class="d-flex justify-content-end pb-2">
+            <button class="btn btn-danger" (click)="openModalAddPacient()">Add patient</button>
+        </div>
+        <div class="d-flex align-items px-10">
+            <table class="table table-striped table-hover mx-5">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First Name</th>
+                        <th scope="col">Last Name</th>
+                        <th scope="col">Birthday</th>
+                        <th scope="col">Gender</th>
+                        <th scope="col" class="action-cell">Options</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let patient of patients$ | async" class="align-middle">
+                        <td scope="row">{{ patient.orderTiketNumber }}</td>
+                        <td>{{ patient.firstName }}</td>
+                        <td>{{ patient.lastName }}</td>
+                        <td>{{ patient.dateOfBirth | formatDate }}</td>
+                        <td>{{ patient.gender }}</td>
+                        <td class="action-cell">
+                            <div class="d-flex">
+                                <button
+                                    class="btn btn-primary text-nowrap"
+                                    (click)="openConsultPacient(patient.id)">
+                                    Confirm consult
+                                </button>
+                                <button class="btn btn-dark ms-2" (click)="editPatient(patient.id)">
+                                    Edit
+                                </button>
+
+                                <button
+                                    class="btn btn-dark ms-2"
+                                    (click)="deletePatient(patient.id)">
+                                    Delete
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

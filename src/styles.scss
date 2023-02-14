@@ -1,0 +1,19 @@
+html,
+body {
+    height: 100%;
+}
+// Custom
+@import "src/assets/scss/headers.scss";
+@import "src/assets/scss/layout-card.scss";
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap-icons/font/bootstrap-icons';
+
+
+.help-block {
+    color: red;
+    font-size: 12px;
+}

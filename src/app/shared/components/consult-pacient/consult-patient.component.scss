@@ -1,0 +1,11 @@
+:host {
+    * {
+        box-sizing: border-box;
+       
+        .modal-body {
+            justify-content: center;
+            align-items: center;
+            
+        }
+    }
+}

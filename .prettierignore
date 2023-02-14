@@ -1,0 +1,9 @@
+*.git
+*.png
+*.jpg
+*.ico
+*.gitkeep
+node_modules
+package-lock.json
+/.angular/cache
+.vscode/*
