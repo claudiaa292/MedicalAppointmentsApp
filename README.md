@@ -23,7 +23,7 @@ The implementation was made with Angular Reactive forms.
 <img src="medical-appointment.jpg">
 
 # Project was based on the following technologies and tooling:
-- Angular with Typescript
+- [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3 with Typescript
 
 - HTML
 
@@ -70,9 +70,7 @@ In order to have a common style code for Medical Appointments Application, in Vi
 
  And then run the command:
 **prettier --config .prettierrc --write .**
-# PatientManagement
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
 ## Development server
 
