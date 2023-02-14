@@ -57,7 +57,7 @@ In order to have a common style code for Medical Appointments Application, in Vi
 
 •	**.eslintrc.json** 
 
- This extensions require the following NPM packages to be installed: prettier, eslint.
+ This extensions require the following NPM packages to be installed: **prettier**, **eslint**.
 
  Select the default formatting extension as follows: Right-click in editor > "Format Document With" > "Configure Default Formatter" > "Prettier - Code Formatter". 
 
