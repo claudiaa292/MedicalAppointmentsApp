@@ -1,0 +1,60 @@
+{
+  "patients": [
+    {
+      "firstName": "Stefan",
+      "lastName": "Patrascu",
+      "dateOfBirth": {
+        "year": 1995,
+        "month": 11,
+        "day": 9
+      },
+      "gender": "male",
+      "CNP": "1921156265988",
+      "phoneNumber": 756895236,
+      "orderTiketNumber": 10000,
+      "id": 1
+    },
+    {
+      "firstName": "Claudia-Roxana",
+      "lastName": "Dogaru",
+      "dateOfBirth": {
+        "year": 2023,
+        "month": 2,
+        "day": 10
+      },
+      "gender": "female",
+      "CNP": "2365985623445",
+      "phoneNumber": 764783264,
+      "orderTiketNumber": 10001,
+      "id": 2
+    },
+    {
+      "firstName": "Mariana",
+      "lastName": "Marin",
+      "dateOfBirth": {
+        "year": 2005,
+        "month": 2,
+        "day": 9
+      },
+      "gender": "male",
+      "CNP": "2050509565984",
+      "phoneNumber": 765658459,
+      "orderTiketNumber": 10002,
+      "id": 3
+    },
+    {
+      "firstName": "Vlaicu",
+      "lastName": "Roxana",
+      "dateOfBirth": {
+        "year": 1995,
+        "month": 2,
+        "day": 4
+      },
+      "gender": "female",
+      "CNP": "2950204569856",
+      "phoneNumber": 726598478,
+      "orderTiketNumber": 10003,
+      "id": 4
+    }
+  ]
+}
