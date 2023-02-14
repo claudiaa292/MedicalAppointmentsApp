@@ -1,6 +1,6 @@
 # Medical Appointments Application
 
-The MedicalAppointmentApp is an app for managing patients presenting to a doctor's office for consultation. The main page displays patients on the waiting list from where you can add a new patient and delete/edit an existing one. You can also remove a patient from a new view, after it was consulted. 
+The MedicalAppointmentsApp is an app for managing patients presenting to a doctor's office for consultation. The main page displays patients on the waiting list from where you can add a new patient and delete/edit an existing one. You can also remove a patient from a new view, after it was consulted. 
 
 
 For the add and edit patient form the following validations have been added for fields as follows:
